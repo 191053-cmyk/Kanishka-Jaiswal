@@ -500,7 +500,7 @@ section{padding:5rem 2rem;}
 .cv2-social-panel{display:flex;flex-direction:column;gap:1.2rem;}
 .cv2-social-heading{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.12em;
   text-transform:uppercase;color:rgba(255,255,255,.45);text-align:center;}
-.cv2-social-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem;}
+.cv2-social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem;}
 .cv2-social-btn{
   position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
   gap:.55rem;padding:1.3rem .6rem;border-radius:16px;text-decoration:none;color:#eef6f5;
@@ -514,6 +514,7 @@ section{padding:5rem 2rem;}
 }
 .cv2-social-btn .cv2-social-label{font-size:.7rem;font-weight:600;letter-spacing:.04em;
   color:rgba(255,255,255,.55);transition:color .25s;}
+.cv2-social-btn .cv2-social-value{display:none;}
 .cv2-social-btn:hover{transform:translateY(-5px) scale(1.04);border-color:rgba(46,230,166,.45);
   box-shadow:0 14px 34px rgba(46,230,166,.22),0 4px 14px rgba(61,184,255,.2);}
 .cv2-social-btn:hover .cv2-social-icon{
@@ -523,7 +524,7 @@ section{padding:5rem 2rem;}
 }
 .cv2-social-btn:hover .cv2-social-label{color:var(--neon-green);}
 @media(max-width:560px){
-  .cv2-social-grid{grid-template-columns:repeat(2,1fr);}
+  .cv2-social-grid{grid-template-columns:repeat(1,1fr);}
 }
 
 
@@ -628,7 +629,7 @@ footer strong{color:var(--teal-mid);}
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">✉ Get In Touch</a>
         <a href="#certifications" class="btn btn-outline">📜 View Certificates</a>
-        <a href="resume.pdf" target="_blank" class="btn btn-outline">📄 View Resume</a>
+        <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-outline">📄 View Resume</a>
       </div>
     </div>
 
@@ -915,29 +916,24 @@ footer strong{color:var(--teal-mid);}
         </form>
       </div>
 
-      <!-- CONTACT INFO CARDS -->
+      <!-- CONTACT INFO — VERIFIED REAL LINKS (edit only if these details change) -->
       <div class="cv2-glass cv2-social-panel reveal" style="padding:1.8rem;">
         <div class="cv2-social-heading">Connect With Me</div>
         <div class="cv2-social-grid">
-          <!-- PLACEHOLDER: replace with your real email -->
-          <a href="mailto:your@email.com" class="cv2-social-btn">
+          <a href="mailto:kanishka.jaiswal2@gmail.com" class="cv2-social-btn">
             <span class="cv2-social-icon"><i class="fa-solid fa-envelope"></i></span>
             <span class="cv2-social-label">Email</span>
+            <span class="cv2-social-value">kanishka.jaiswal2@gmail.com</span>
           </a>
-          <!-- PLACEHOLDER: replace with your real LinkedIn URL -->
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="cv2-social-btn">
+          <a href="https://linkedin.com/in/kanishkajaiswal2508" target="_blank" rel="noopener" class="cv2-social-btn">
             <span class="cv2-social-icon"><i class="fa-brands fa-linkedin-in"></i></span>
             <span class="cv2-social-label">LinkedIn</span>
+            <span class="cv2-social-value">/in/kanishkajaiswal2508</span>
           </a>
-          <!-- PLACEHOLDER: replace with your real GitHub URL -->
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener" class="cv2-social-btn">
-            <span class="cv2-social-icon"><i class="fa-brands fa-github"></i></span>
-            <span class="cv2-social-label">GitHub</span>
-          </a>
-          <!-- PLACEHOLDER: replace with your real WhatsApp number -->
-          <a href="https://wa.me/911234567890" target="_blank" rel="noopener" class="cv2-social-btn">
+          <a href="https://wa.me/918957555014" target="_blank" rel="noopener" class="cv2-social-btn">
             <span class="cv2-social-icon"><i class="fa-brands fa-whatsapp"></i></span>
             <span class="cv2-social-label">WhatsApp</span>
+            <span class="cv2-social-value">+91 89575 55014</span>
           </a>
         </div>
       </div>
